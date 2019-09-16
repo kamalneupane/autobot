@@ -1,0 +1,28 @@
+.toast
+{
+    position: absolute;
+    top: 10px;
+    right: 35px;
+    padding: 10px 25px;
+    max-width: 350px;
+    overflow: hidden;
+    font-size: .875rem;
+    background-color: rgba(255,255,255,.85);
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,.1);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: .25rem;
+    z-index: 9999;
+    -webkit-animation: hideToast 4s forwards;
+    animation: hideToast 4s forwards;
+}
+@keyframes hideToast {
+    0%   {opacity: 1;}
+    100% {opacity: 0;}
+}
+@-webkit-keyframes hideToast {
+    0%   {opacity: 1;}
+    100% {opacity: 0;}
+}

@@ -1,0 +1,10 @@
+#sidebar-1{
+    background-color: aqua;
+    font-size: 20px;
+    padding-left: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* height: 100%; */
+    overflow: hidden;
+    box-sizing: border-box;
+    /* position: fixed; */
+}
